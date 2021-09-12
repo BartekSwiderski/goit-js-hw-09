@@ -70,7 +70,6 @@ startBtn.addEventListener("click", () => {
   hours.textContent = addLeadingZero(time.hours);
   minutes.textContent = addLeadingZero(time.minutes);
   seconds.textContent = addLeadingZero(time.seconds);
-  console.log(time)
   }, 1000);
 });
 stopBtn.addEventListener("click", () => {
